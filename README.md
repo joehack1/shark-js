@@ -2,7 +2,10 @@
 
 ## Demo
 
-![Shark JS Demo](fullscreen.mp4)
+<video width="100%" controls>
+  <source src="fullscreen.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 A fun and interactive web animation featuring a shark that follows your mouse cursor around the screen.
 
