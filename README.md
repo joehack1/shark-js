@@ -1,5 +1,9 @@
 # Shark JS
 
+## Demo
+
+![Shark JS Demo](fullscreen.mp4)
+
 A fun and interactive web animation featuring a shark that follows your mouse cursor around the screen.
 
 ## Description
