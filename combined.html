@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Shark</title>
+  <style>
+html, body { height: 100%; width: 100%; margin: 0;}
+#background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+#whale {height: 99.5%; width: 100%; position: relative; z-index: 1;}
+  </style>
+</head>
+<body>
+  <video id="background-video" autoplay muted loop>
+    <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div id="whale"></div>
+  <script>
+var whale = (function () {
+
+    var element = document.getElementById("whale")
+      , width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
+      , height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight
+      , fps = 30
+      , easy = 6
+      , maxspeed = 150
+      , delay = 15
+      , mouse = {x: width/2, y: height/2}
+      , defs
+      , parts
+    ;
+  
