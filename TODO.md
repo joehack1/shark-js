@@ -1,0 +1,3 @@
+- [x] Add video element to index.html as background
+- [x] Update style.css to style the video as full-screen background
+- [x] Test the page to ensure video plays and shark animation works
